@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Solving Climate Change</title>
+        <!-- font-awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
         <!-- Bootstrap css -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
@@ -25,7 +28,9 @@
         </nav> -->
 
         <div class="landing-section" id="climateBanner">
-            <h2 class="landing-section__heading">Climate change through collaboration</h2>
+            <h2 class="landing-section__heading">Climate change</h2>
+            <h2 class="landing-section__heading landing-section__heading--sm">through</h2>
+            <h2 class="landing-section__heading landing-section__heading--lg">collaboration</h2>
             <p class="landing-section__p"></p>
         </div>
 
@@ -43,48 +48,94 @@
             <!-- <div class="solution-section__img-div" id="solutionImgDivTwo"></div> -->
         </div>
 
-        <div class="accordionCtn">
+        <div class="accordionCtn" data-aos="fade-up">
             <div id="accordion" class="accordion">
-                <div class="card">
-                  <div class="card-header" id="headingOne">
+                <div class="card accordion__card">
+                  <div class="card-header accordion__card-header accordion__card-header--one" id="headingOne">
                     <h5 class="mb-0">
-                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        The Problem
+                      <button class="btn btn-link accordion__header-text" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        The Problem &nbsp<i class="fa-solid fa-angle-down"></i>
                       </button>
                     </h5>
                   </div>
               
                   <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                    <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    <div class="card-body accordion__card-body">
+                      Climate is the average weather in a place over many years. Climate change is a shift in those average conditions.
+                      <br /><br />
+                      The rapid climate change we are now seeing is caused by humans using oil, gas and coal for their homes, factories and transport.
+                      <br /><br />
+                      When these fossil fuels burn, they release greenhouse gases - mostly carbon dioxide (CO2). These gases trap the Sun's heat and cause the planet's temperature to rise.
+                      <br /><br />
+                      <img class="accordion__tempGraph" src="media\_121088807_berkeley_earth_land_and_ocean_v4-nc.png" alt="Average temperatures graph">
+                      <br /><br />
+                      Temperature rises must slow down if we want to avoid the worst consequences of climate change, scientists say. They say global warming needs to be kept to 1.5C by 2100.
+                      <br /><br />
+                      However, unless further action is taken, the planet could still warm by more than 2C by the end of this century. A report in 2021 by the Climate Action Tracker group calculated that the world was heading for 2.4C of warming by the end of the century.
+                      <br /><br />
+                      If nothing is done, scientists think global warming could exceed 4C in the future, leading to devastating heatwaves, millions losing their homes to rising sea levels and irreversible loss of plant and animal species.
+                      <br /><br />
+                      <a class="accordion__weblink" href="url">BBC: What is climate change? <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                   </div>
                 </div>
-                <div class="card">
-                  <div class="card-header" id="headingTwo">
+                <div class="card accordion__card">
+                  <div class="card-header accordion__card-header accordion__card-header--two" id="headingTwo">
                     <h5 class="mb-0">
-                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Greenhouse gas emissions
+                      <button class="btn btn-link collapsed accordion__header-text" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Greenhouse gas emissions &nbsp<i class="fa-solid fa-angle-down"></i>
                       </button>
                     </h5>
                   </div>
                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                    <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    <div class="card-body accordion__card-body">
+                      Since the start of the Industrial Revolution and the advent of coal-powered steam engines, human activities have vastly increased the volume of greenhouse gases emitted into the atmosphere. It is estimated that between 1750 and 2011, atmospheric concentrations of carbon dioxide increased by 40 percent, methane by 150 percent, and nitrous oxide by 20 percent. In the late 1920s, we started adding man-made fluorinated gases like chlorofluorocarbons, or CFCs, to the mix.
+                      <br /><br />
+                      In recent decades we’ve only picked up the pace. Of all the man-made emissions of carbon dioxide—the most abundant greenhouse gas released by human activities, and one of the longest-lasting—from 1750 to 2010, approximately half were generated in the last 40 years alone, in large part due to fossil fuel combustion and industrial processes. And while global greenhouse gas emissions have occasionally plateaued or dropped from year to year (most recently between 2014 and 2016), they’re accelerating once again. In 2017, carbon emissions rose by 1.6 percent; in 2018 they increased by an estimated 2.7 percent.
+                      <br /><br />
+                      <img class="gasesGraph" src="media\greenhouseeffect_graphic2_2400x1800_0.png" alt="Average temperatures graph">
+                      <br /><br />
+                      Today’s human-caused greenhouse gas emissions are higher than ever, the concentration of greenhouse gases in the atmosphere is rising rapidly, and according to the IPCC, the planet is heating up. Between preindustrial times and now, the earth’s average temperature has increased 1.8 degrees Fahrenheit (1.0 degrees Celsius), with approximately two-thirds of that warming occurring in the last handful of decades alone. According to the IPCC, 1983 to 2012 was likely the warmest 30-year period of the last 1,400 years (in the Northern Hemisphere, where assessment is possible). And all five of the years from 2014 to 2018 were the hottest on record globally. If warming trends continue at the current rate, it’s estimated global warming will reach 2.7 degrees Fahrenheit (1.5 degrees Celsius) above preindustrial levels between 2030 and 2052.
+                      <br /><br />
+                      <a class="accordion__weblink" href="url">NRDC: Greenhouse Effect 101 <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                   </div>
                 </div>
-                <div class="card">
-                  <div class="card-header" id="headingThree">
+                <div class="card accordion__card">
+                  <div class="card-header accordion__card-header accordion__card-header--three" id="headingThree">
                     <h5 class="mb-0">
-                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        The Drivers
+                      <button class="btn btn-link collapsed accordion__header-text" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Key Drivers &nbsp<i class="fa-solid fa-angle-down"></i>
                       </button>
                     </h5>
                   </div>
                   <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                    <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    <div class="card-body accordion__card-body">
+                      Population size, economic activity, lifestyle, energy use, land use patterns, technology, and climate policy: According to the Intergovernmental Panel on Climate Change (IPCC), these are the broad forcings that drive nearly all human-caused greenhouse gas emissions. Here’s a closer look at greenhouse gas emissions by source.
+                      <br /><br />
+                      <h5 class="accordion__subheader">Electricity and Heat Production</h5>
+                      The burning of coal, oil, and natural gas to produce electricity and heat accounts for one-quarter of worldwide human-driven emissions, making it the largest single source. In the United States it’s the second-largest (behind transportation), responsible for about 27.5 percent of U.S. emissions in 2017, with carbon dioxide the primary gas released (along with small amounts of methane and nitrous oxide), mainly from coal combustion.
+                      <br /><br />
+                      <h5 class="accordion__subheader">Agriculture and Land Use Changes</h5>
+                      About another quarter of global greenhouse gas emissions stem from agriculture and other land-use activities (such as deforestation). In the United States, agricultural activities—primarily the raising of livestock and crops for food—accounted for 8.4 percent of greenhouse gas emissions in 2017. Of those, the vast majority were methane (which is produced as manure decomposes and as beef and dairy cows belch and pass gas) and nitrous oxide (often released with the use of nitrogen-heavy fertilizers).
+                      <br /><br />
+                      Trees, plants, and soil absorb carbon dioxide from the air. The plants and trees do it via photosynthesis (a process by which they turn carbon dioxide into glucose); the soil houses microbes that carbon binds to. So nonagricultural land-use changes such as deforestation, reforestation (replanting in existing forested areas), and afforestation (creating new forested areas) can either increase the amount of carbon in the atmosphere (as in the case of deforestation) or decrease it via absorption, removing more carbon dioxide from the air than they emit. (When trees or plants are cut down, they no longer absorb carbon dioxide, and when they are burned or decompose, they release carbon dioxide back into the atmosphere.) In the United States, land-use activities currently represent a net carbon sink, absorbing more carbon dioxide from the air than they emit.
+                      <br /><br />
+                      <h5 class="accordion__subheader">Industry</h5>
+                      About one-fifth of global human-driven emissions come from the industrial sector, which includes the manufacturing of goods and raw materials (like cement and steel), food processing, and construction. In 2017, industry accounted for 22.4 percent of U.S. man-made emissions, of which the majority was carbon dioxide, though methane, nitrous oxide, and fluorinated gases were also released.
+                      <br /><br />
+                      <h5 class="accordion__subheader">Transportation</h5>
+                      The burning of petroleum-based fuels, namely gasoline and diesel, to power the world’s transportation systems accounts for 14 percent of global greenhouse gas emissions. In the United States, with Americans buying larger cars and taking more flights and with low gas prices encouraging drivers to use their cars more, transportation is the largest contributor of greenhouse gases. (It accounted for 28.7 percent of U.S. emissions in 2017.) Carbon dioxide is the primary gas emitted, though fuel combustion also releases small amounts of methane and nitrous oxide, and vehicle air conditioning and refrigerated transport release fluorinated gases too.
+                      <br /><br />
+                      Nationwide, cars and trucks are responsible for more than 80 percent of transportation-related carbon emissions.
+                      <br /><br />
+                      <h5 class="accordion__subheader">Buildings</h5>
+                      Operating buildings around the world generates 6.4 percent of global greenhouse gases. In the United States, homes and businesses accounted for about 11 percent of warming emissions. These emissions, made up mostly of carbon dioxide and methane, stem primarily from burning natural gas and oil for heating and cooking, though other sources include managing waste and wastewater and leaking refrigerants from air-conditioning and refrigeration systems.
+                      <br /><br />
+                      <h5 class="accordion__subheader">Other Sources</h5>
+                      This category includes emissions from energy-related activities other than fossil fuel combustion, such as the extraction, refining, processing, and transportation of oil, gas, and coal. Globally, this sector accounts for 9.6 percent of emissions.
+                      <br /><br />
+                      <a class="accordion__weblink" href="url">IPCC Report: Drivers, Trends and Mitigation <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                   </div>
                 </div>
@@ -149,14 +200,16 @@
           AOS.init();
         </script>
 
-        <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
-        <!-- jquery v3.5.1 -->
+<!-- jquery v3.5.1 -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
         <!-- bootstrap js -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-        <script src="./script.js"></script>
+        <!-- key script -->
+        <script src="./js/key.js"></script>
+
+        <script src="./js/script.js"></script>
     </body>
 </html>
